@@ -1,0 +1,35 @@
+structs houseType{
+    string style;
+    int numOfBedrooms;
+    int numOfBathrooms;
+    int numOfCarsGarage;
+    int yearBuilt;
+    int finishedSquareFootage;
+    double price;
+    double tax;
+}
+
+struct varaibles can be declared when the variable is created
+structs houseType
+{
+    string style;
+    int numOfBedrooms;
+    int numOfBathrooms;
+    int numOfCarsGarage;
+    int yearBuilt;
+    int finishedSquareFootage;
+    double price;
+    double tax;
+} tempHouse;
+
+the above statment declares tempHouse as tye houseType
+
+Accesing struct members
+To access a struct member, use the struct name separated by the member name.
+houseType.numOfBedrooms. 
+the dot in the above statment is called the member access operator.
+
+
+
+
+
